@@ -7,6 +7,7 @@ namespace test\HealthCheckBundle\Controller;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\JsonResponse;
 use test\HealthCheckBundle\Service\HealthInterface;
+use Symfony\Component\Routing\Annotation\Route;
 
 class HealthController extends AbstractController
 {
